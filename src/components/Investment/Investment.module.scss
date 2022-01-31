@@ -1,0 +1,43 @@
+@import '../../styles/theme.scss';
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    text-align: left;
+    margin-bottom: 24px;
+    p {
+        margin: 0;
+        margin-bottom: 4px;
+        font-size: $font-medium;
+        font-weight: 400;
+    }
+    section:first-child{
+        position: relative;
+        margin-left: 75px;
+        p:first-child{
+            font-weight: 500;
+        }
+        p + p {
+            color: #82838B;
+        }
+        &::before{
+            content: '';
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            background: $gray;
+            left: -75px;
+            border-radius: 50%;
+        }
+    }
+    section + section {
+        p + p {
+            font-size: $font-small;
+            color: $green;
+            &.negative{
+                color: $red;
+            }
+        }
+
+    }
+}

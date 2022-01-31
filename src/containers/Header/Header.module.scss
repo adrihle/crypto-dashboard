@@ -1,0 +1,14 @@
+@import '../../styles/theme.scss';
+
+.container{
+    p {
+        color: $light-blue;
+        font-weight: 400px;
+        margin: 0;
+    }
+    p + p {
+        margin-top: 8px;
+        color: $white;
+        font-size: $font-large;
+    }
+}

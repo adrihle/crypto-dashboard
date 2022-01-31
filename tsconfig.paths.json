@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@components": [
+                "./components"
+            ],
+            "@containers": [
+                "./containers"
+            ],
+            "@assets": [
+                "./assets"
+            ],
+            "@constants": [
+                "./constants"
+            ],
+            "@interfaces": [
+                "./interfaces"
+            ],
+            "@context": [
+                "./context"
+            ],
+            "@hooks": [
+                "./hooks"
+            ],
+            "@mock": [
+                "./mock"
+            ],
+            "@pages": [
+                "./pages"
+            ],
+            "@i18n": [
+                "./i18n"
+            ]
+        }
+    }
+}

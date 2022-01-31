@@ -1,0 +1,21 @@
+@import '../../styles/theme.scss';
+
+.container{
+    height: 60px;
+    padding: 18px 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 22px;
+    p{
+        margin: 0;
+        color: $white;
+        margin-right: -22px;
+    }
+    svg{
+        height: 22px;
+        width: 22px;
+        &>path{
+            fill: $white;
+        }
+    }
+}

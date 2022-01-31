@@ -1,0 +1,4 @@
+export enum EActions {
+    PULL_INVESTMENTS = 'PULL_INVESTMENTS',
+    SELECT_MENU = 'SELECT_MENU'
+}

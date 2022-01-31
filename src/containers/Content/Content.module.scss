@@ -1,0 +1,18 @@
+@import '../../styles/theme.scss';
+
+.container{
+    padding: 28px 32px;
+    background: $white;
+    border-top-right-radius: $radius-large;
+    border-top-left-radius: $radius-large;
+    margin-top: 32px;
+    height: 100vh;
+    h4 {
+        color: $light-blue;
+        font-size: $font-medium;
+        font-weight: 400;
+        margin: 0;
+        text-align: left;
+        margin-bottom: 37px;
+    }
+}
